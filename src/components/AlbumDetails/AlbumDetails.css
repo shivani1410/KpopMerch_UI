@@ -1,0 +1,15 @@
+.albumDetails{
+  width:100%;
+  height: 200px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+border: 10px solid rgba(255, 255, 255, 0.822);
+
+
+}
+.albumText{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+  color: #7ee8fa;
+}

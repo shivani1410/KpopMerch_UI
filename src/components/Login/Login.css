@@ -1,0 +1,16 @@
+/* .background{
+    width: 18rem;
+    background-color:yellow ;
+    background-image: linear-gradient(-90deg,#f5dc98, #fdba04(255, 0, 0));
+}
+.dropdown-menu{
+    background-color:yellow ;
+}
+.show{
+    background-color:yellow ;
+} */
+.bgColor{
+    background-color:#7ee8fa ;
+    background-image:linear-gradient(-90deg,#7ee8fa, #eec0c6);
+    color:white;
+  }

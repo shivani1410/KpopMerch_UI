@@ -1,0 +1,126 @@
+.albumDetails{
+    width:100%;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+  border: 10px solid rgba(255, 255, 255, 0.822);
+
+  
+  }
+  .albumText{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  
+    color: #7ee8fa;
+  }
+  .filterHeading{
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 300px;
+ height: 30px;
+ justify-content: flex-start;
+ display: flex;
+    background-color:#7ee8fa ;
+  background-image:linear-gradient(-90deg,#7ee8fa, #eec0c6);
+  color:white;
+  }
+  .filterBox{
+    
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  }
+ /* .checkBox{
+   display: block;
+  outline: none;
+   
+   
+ } */
+
+ #Infinite.btn-secondary{
+  color: white;
+  background-color: #eec0c6;
+  outline: none;
+  border-color:#eec0c6;
+  width: 300px;
+  margin-top: 10px;
+ }
+ #Infinite.btn-secondary:not(:disabled):not(.disabled).active{
+   color: white;
+   outline: none;
+   background-color: #7ee8fa;
+   border-color:#7ee8fa;
+ }
+ /* .btn-secondary.focus{
+   color: white;
+   background-color: #eec0c6;
+   outline: none;
+   background-image:linear-gradient(-90deg,#7ee8fa, #eec0c6);
+   border-color: #eec0c6;
+   box-shadow: #eec0c6;
+ } */
+ #Infinite.btn-secondary:hover{
+  color: white;
+  outline: none;
+  background-color: #eec0c6;
+  background-image:linear-gradient(-90deg,#7ee8fa, #eec0c6);
+  border-color: #eec0c6;
+  box-shadow: #eec0c6;
+}
+#KimSungKyu.btn-secondary{
+  color: white;
+  background-color: #eec0c6;
+  outline: none;
+  border-color:#eec0c6;
+  width: 300px;
+  margin-top: 10px;
+ }
+ #KimSungKyu.btn-secondary:not(:disabled):not(.disabled).active{
+   color: white;
+   outline: none;
+   background-color: #7ee8fa;
+   border-color:#7ee8fa;
+ }
+
+ #KimSungKyu.btn-secondary:hover{
+  color: white;
+  outline: none;
+  background-color: #eec0c6;
+  background-image:linear-gradient(-90deg,#7ee8fa, #eec0c6);
+  border-color: #eec0c6;
+  box-shadow: #eec0c6;
+}
+#Astro.btn-secondary{
+  color: white;
+  background-color: #eec0c6;
+  outline: none;
+  border-color:#eec0c6;
+  width: 300px;
+  margin-top: 10px;
+ }
+ #Astro.btn-secondary:not(:disabled):not(.disabled).active{
+   color: white;
+   outline: none;
+   background-color: #7ee8fa;
+   border-color:#7ee8fa;
+ }
+
+ #Astro.btn-secondary:hover{
+  color: white;
+  outline: none;
+  background-color: #eec0c6;
+  background-image:linear-gradient(-90deg,#7ee8fa, #eec0c6);
+  border-color: #eec0c6;
+  box-shadow: #eec0c6;
+}
+
+.btn-group{
+  display: block;
+  width: 300px;
+}
+.artist{
+  display:flex;
+  justify-content:flex-start;
+  background-color:#eec0c6;
+  width:300px;
+  border: 1px solid rgba(255, 255, 255, 0.822);
+}

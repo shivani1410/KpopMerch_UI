@@ -1,0 +1,39 @@
+.common{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+.marginLabel{
+    margin-right: 5px;
+}
+.albumCard{
+    width:100%;
+    height: 300px;
+    display: flex;
+   
+    flex-wrap: wrap;
+  border: 10px solid rgba(255, 255, 255, 0.822);
+  
+  
+  }
+  .albumText{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  
+    color: #7ee8fa;
+  }
+  
+  .heading{
+  display: flex;
+ 
+  
+  margin-left: 10px;
+  
+  }
+  .priceTitle{
+    font-size:30px;
+    /* border-bottom:0.5px solid #eec0c6; */
+    color:#7ee8fa;
+    display:flex
+  }
+  

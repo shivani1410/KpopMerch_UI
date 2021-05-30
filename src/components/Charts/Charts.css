@@ -1,0 +1,42 @@
+span{
+    justify-content: flex-start;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.head1{
+    color: white;
+    outline: none;
+    background-color: #7ee8fa;
+
+    border-color: #7ee8fa;
+    box-shadow: #7ee8fa;
+ 
+  }
+  .head1:hover{
+    color: white;
+    outline: none;
+    background-color: #7ee8fa;
+    background-image:linear-gradient(-90deg,#7ee8fa, #eec0c6);
+    border-color: #7ee8fa;
+    box-shadow: #7ee8fa;
+    height:400px  
+  }
+  .hover-content {
+    display:none;
+    position: absolute;
+}
+.head1:hover .hover-content {
+    display:block;
+}
+.line{
+  -webkit-text-decoration-line: overline; /* Safari */
+   text-decoration-line: overline; 
+}
+.CircularProgressbar .CircularProgressbar-path{
+  stroke: white;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
